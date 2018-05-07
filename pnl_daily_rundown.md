@@ -141,7 +141,8 @@ cd $HOME/git/risk_system/pnl_calc/market_data_downloader/; python auto_insert_TR
         * Insert new symbol to riskdb2.products
   - 2.Log whether contain `MTM price`
         * Add that symbol today market price , still cannot , then insert yesterday market price to riskdb2.market_data
-
+  - 3.add new symbol cutofftime
+        * /home/pnl/git/risk_system/pnl_calc/get_cutofftime.py
 ## Checking
 - Crontab job checking eg.
 
